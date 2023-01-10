@@ -42,7 +42,7 @@
             // 
             // outputLabel
             // 
-            this.outputLabel.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Font = new System.Drawing.Font("Times New Roman", 12.5F);
             this.outputLabel.Location = new System.Drawing.Point(26, 26);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(432, 39);
@@ -70,7 +70,7 @@
             // 
             // option1Label
             // 
-            this.option1Label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option1Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option1Label.Location = new System.Drawing.Point(78, 361);
             this.option1Label.Name = "option1Label";
             this.option1Label.Size = new System.Drawing.Size(380, 21);
@@ -79,7 +79,7 @@
             // 
             // option2Label
             // 
-            this.option2Label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option2Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option2Label.Location = new System.Drawing.Point(78, 411);
             this.option2Label.Name = "option2Label";
             this.option2Label.Size = new System.Drawing.Size(380, 21);
@@ -88,7 +88,7 @@
             // 
             // option3Label
             // 
-            this.option3Label.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.option3Label.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.option3Label.Location = new System.Drawing.Point(78, 462);
             this.option3Label.Name = "option3Label";
             this.option3Label.Size = new System.Drawing.Size(380, 21);
@@ -135,7 +135,6 @@
             this.MinimumSize = new System.Drawing.Size(500, 540);
             this.Name = "DanceNight";
             this.Text = "Dance Night";
-            this.Load += new System.EventHandler(this.DanceNight_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

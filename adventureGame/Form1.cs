@@ -1394,9 +1394,5 @@ namespace adventureGame
                     break;
             }
         }
-        private void DanceNight_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
